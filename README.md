@@ -52,7 +52,7 @@ The installer detects what is absent from your machine and will install it.
 In case your machine already has a dependency, it will skip the installation for it.
 
 ```shell
-bash <(curl --silent --location "https://github.com/ghaiklor/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
+bash <(curl --silent --location "https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
 ```
 
 ## Manual Installation
@@ -110,6 +110,8 @@ Specifically, to add a high number of extra glyphs from popular â€˜iconic fontsâ
 We use one of their fonts to render the theme that uses ligatures from there.
 So you need to download the font, install it in the Font Book and apply in your terminal emulator [iTerm2].
 
+When you [download the font](https://github.com/ryanoasis/nerd-fonts/blob/bc4416e176d4ac2092345efd7bcb4abef9d6411e/patched-fonts/FiraCode/Retina/complete/Fira%20Code%20Retina%20Nerd%20Font%20Complete.ttf?raw=true), you can open it by double clicking.
+It will open the
 When you [download the font](https://github.com/ryanoasis/nerd-fonts/blob/bc4416e176d4ac2092345efd7bcb4abef9d6411e/patched-fonts/FiraCode/Retina/complete/Fira%20Code%20Retina%20Nerd%20Font%20Complete.ttf?raw=true), you can open it by double clicking.
 It will open the Font Book and install the font.
 Afterwards, go to iTerm2 -> Preferences -> Profiles -> Default -> Text and set the font `FiraCode Nerd Font`.
