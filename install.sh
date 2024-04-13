@@ -13,8 +13,8 @@ set -ueo pipefail
 # Setting PATH for Apple Silicon MacBooks
 PATH=/opt/homebrew/bin:$PATH
 TEMP_DIR=$(mktemp -d)
-COLOR_SCHEME_URL="https://github.com/MartinSeeler/iterm2-material-design/blob/6bd6c8b3627d079ed3ed74e152b12b1db1eb3a6b/material-design-colors.itermcolors?raw=true"
-NERD_FONT_URL="https://github.com/ryanoasis/nerd-fonts/blob/bc4416e176d4ac2092345efd7bcb4abef9d6411e/patched-fonts/FiraCode/Retina/complete/Fira%20Code%20Retina%20Nerd%20Font%20Complete.ttf?raw=true"
+COLOR_SCHEME_URL="https://github.com/chriskempson/base16-iterm2/blob/master/base16-londontube.dark.256.itermcolors?raw=true"
+NERD_FONT_URL="https://github.com/ryanoasis/nerd-fonts/blob/bc4416e176d4ac2092345efd7bcb4abef9d6411e/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf?raw=true"
 PLUGINS_INSTALLER_URL="https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/askthecode/install_plugins.sh?raw=true"
 
 INFO_LEVEL="\033[0;33m"
@@ -113,8 +113,8 @@ print_post_installation
   print "$SUCCESS_LEVEL" "The script accomplished all the commands it was told to do"
   print "$SUCCESS_LEVEL" "Unfortunately, some things can’t be automated and you need to do them manually"
   print "$SUCCESS_LEVEL" " "
-  print "$SUCCESS_LEVEL" "1) Open iTerm -> Preferences -> Profiles -> Colors -> Color Presets and apply Material Design preset"
-  print "$SUCCESS_LEVEL" "2) Open iTerm -> Preferences -> Profiles -> Text -> Font and apply FiraCode Nerd Font with ligatures checkbox ticked"
+  print "$SUCCESS_LEVEL" "1) Open iTerm -> Preferences -> Profiles -> Colors -> Color Presets and apply base16-londontube.dark preset"
+  print "$SUCCESS_LEVEL" "2) Open iTerm -> Preferences -> Profiles -> Text -> Font and apply Hack Nerd Font with ligatures checkbox ticked"
   print "$SUCCESS_LEVEL" "3) Open iTerm -> Preferences -> Profiles -> Text -> Use a different font for non-ASCII text and apply FiraCode Nerd Font with ligatures checkbox ticked"
 }
 
