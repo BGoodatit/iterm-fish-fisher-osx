@@ -4,7 +4,7 @@
 #author        :BGoodatit
 #date          :2024-04-03
 #version       :1.1
-#usage         :bash <(curl --silent --location "https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/askthecode/install.sh?raw=true")
+#usage         :bash <(curl --silent --location "https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
 #bash_version  :5.0.17(1)-release
 #===================================================================================
 
@@ -13,9 +13,9 @@ set -ueo pipefail
 # Setting PATH for Apple Silicon MacBooks
 PATH=/opt/homebrew/bin:$PATH
 TEMP_DIR=$(mktemp -d)
-COLOR_SCHEME_URL="https://github.com/chriskempson/base16-iterm2/blob/master/base16-londontube.dark.256.itermcolors?raw=true"
+COLOR_SCHEME_URL="https://raw.githubusercontent.com/BGoodatit/iterm-fish-fisher-osx/master/base16-londontube.dark.256.itermcolors"
 NERD_FONT_URL="https://github.com/ryanoasis/nerd-fonts/blob/bc4416e176d4ac2092345efd7bcb4abef9d6411e/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf?raw=true"
-PLUGINS_INSTALLER_URL="https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/askthecode/install_plugins.sh?raw=true"
+PLUGINS_INSTALLER_URL="https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/master/install_plugins.sh?raw=true"
 
 INFO_LEVEL="\033[0;33m"
 SUCCESS_LEVEL="\033[0;32m"
