@@ -4,7 +4,7 @@
 #author        :BGoodatit
 #date          :2024-04-03
 #version       :1.2
-#usage         :curl --silent --location "https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/askthecode/install_plugins.sh?raw=true" | fish
+#usage         :curl --silent --location "https://github.com/BGoodatit/iterm-fish-fisher-osx/blob/master/install_plugins.sh?raw=true" | fish
 #fish_version  :3.2.2
 #===================================================================================
 
